@@ -1,21 +1,22 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <!--[if IE]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <![endif]-->
-    <meta charset="utf-8" />
-    <title>Rotten Tomato</title>
-   
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/blueimp-gallery.css" />
-    <link rel="stylesheet" href="css/blueimp-gallery-indicator.css" />
-    <link rel="stylesheet" href="css/blueimp-gallery-video.css" />
-    <link rel="stylesheet" href="css/demo/demo.css" />
-    <script src="./removeBanner.js"></script>
-<script>
-function getVote(int) {
+    <meta charset="utf-8"/>
+    <title>
+      Rotten Tomato
+    </title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <link href="css/blueimp-gallery.css" rel="stylesheet"/>
+    <link href="css/blueimp-gallery-indicator.css" rel="stylesheet"/>
+    <link href="css/blueimp-gallery-video.css" rel="stylesheet"/>
+    <link href="css/demo/demo.css" rel="stylesheet"/>
+    <script src="./removeBanner.js">
+    </script>
+    <script>
+      function getVote(int) {
   if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
@@ -30,87 +31,56 @@ function getVote(int) {
   xmlhttp.open("GET","poll_vote.php?vote="+int,true);
   xmlhttp.send();
 }
-</script>
- <link href="https://fonts.googleapis.com/css?family=Sunflower:300,500,700" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
-
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:300,500,700" rel="stylesheet">
+      <link href="./style.css" rel="stylesheet">
+      </link>
+    </link>
   </head>
-  <body>  
-  <br>
-
- 
-  <div>
-    <div class="fullscreen">
-  <div class="container">
-      
-    
-    <br/>
-  
-  
-    <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video1.html"> </iframe>
-</div>
-   
-  
-
- <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video 2.html"> </iframe>
-</div>
-
-
-
-      
-   <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video 3.html"> </iframe>
-</div>
-   
-
-
-</div>
-</div>
- <div>
-    <div class="fullscreen">
-  <div class="container">
-      
-    
-    <br/>
-  
-  
-    <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video1.html"> </iframe>
-</div>
-   
-  
-
- <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video 2.html"> </iframe>
-</div>
-
-
-
-      
-   <div>
-        <iframe scrolling="no" width="650" height="450"  frameborder="0" 
-src="video 3.html"> </iframe>
-</div>
-   
-
-
-</div>
-</div>
-
-
- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
-
+  <body>
+    <br>
+      <div>
+        <div class="fullscreen">
+          <div class="container">
+            <br/>
+            <div>
+              <iframe frameborder="0" height="450" scrolling="no" src="video1.html" width="650">
+              </iframe>
+            </div>
+            <div>
+              <iframe frameborder="0" height="450" scrolling="no" src="video 2.html" width="650">
+              </iframe>
+            </div>
+            <div>
+              <iframe frameborder="0" height="450" scrolling="no" src="video 3.html" width="650">
+              </iframe>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="fullscreen">
+            <div class="container">
+              <br/>
+              <div>
+                <iframe frameborder="0" height="450" scrolling="no" src="video1.html" width="650">
+                </iframe>
+              </div>
+              <div>
+                <iframe frameborder="0" height="450" scrolling="no" src="video 2.html" width="650">
+                </iframe>
+              </div>
+              <div>
+                <iframe frameborder="0" height="450" scrolling="no" src="video 3.html" width="650">
+                </iframe>
+              </div>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+          </script>
+          <script src="./script.js">
+          </script>
+        </div>
+      </div>
+    </br>
   </body>
-  
-  
-  
-
-  
 </html>

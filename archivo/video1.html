@@ -1,18 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Rotten Tomato</title>
-  <link href="https://fonts.googleapis.com/css?family=Sunflower:300,500,700" rel="stylesheet">
-<link rel="stylesheet" href="./style.css">
-
- 
-<script src="./removeBanner.js"></script>
-
-
-
-<script>
-function getVote(int) {
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>
+        Rotten Tomato
+      </title>
+      <link href="https://fonts.googleapis.com/css?family=Sunflower:300,500,700" rel="stylesheet">
+        <link href="./style.css" rel="stylesheet">
+          <script src="./removeBanner.js">
+          </script>
+          <script>
+            function getVote(int) {
   if (window.XMLHttpRequest) {
     // code for IE7+, Firefox, Chrome, Opera, Safari
     xmlhttp=new XMLHttpRequest();
@@ -27,60 +25,81 @@ function getVote(int) {
   xmlhttp.open("GET","poll_vote1.php?vote="+int,true);
   xmlhttp.send();
 }
-</script>
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="fullscreen">
-  <div class="container">
-    <div class="card card_1">
-      
-
-      <div class="content">
-        <div class="title">
-          The House of paper
-        </div>
-        <div class="text">
-          The most watch series in 2018, dont you miss any episode on Netflix!
-        </div>
-      </div>
-      <div class="sinopse">
+          </script>
+        </link>
+      </link>
+    </meta>
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="fullscreen">
+      <div class="container">
+        <div class="card card_1">
+          <div class="content">
+            <div class="title">
+              The House of paper
+            </div>
+            <div class="text">
+              The most watch series in 2018, dont you miss any episode on Netflix!
+            </div>
+          </div>
+          <div class="sinopse">
+            <br>
+              <br>
+                <br>
                   <br>
-        <br>
-        <br>
-        <br>
-	<br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-          <iframe id="ytplayer" type="text/html" data-video="https://www.youtube.com/embed/ZAXA1DV4dtI?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&modestbranding=1&controls=0&showinfo=1&mute=0"
-  src="" frameborder="0" autoplay allowfullscreen></iframe>
-       
-        <div class="content-sinopse">          
-          <div class="title">Series Synopsis</div>
-          <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in hendrerit nulla, sed congue lorem. Phasellus sollicitudin tortor dui, id scelerisque ipsum ultrices vitae. 
-
+                    <br>
+                      <br>
+                        <br>
+                          <br>
+                            <br>
+                              <br>
+                                <br>
+                                  <iframe allowfullscreen="" autoplay="" data-video="https://www.youtube.com/embed/ZAXA1DV4dtI?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&modestbranding=1&controls=0&showinfo=1&mute=0" frameborder="0" id="ytplayer" src="" type="text/html">
+                                  </iframe>
+                                  <div class="content-sinopse">
+                                    <div class="title">
+                                      Series Synopsis
+                                    </div>
+                                    <div class="text">
+                                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in hendrerit nulla, sed congue lorem. Phasellus sollicitudin tortor dui, id scelerisque ipsum ultrices vitae.
+                                    </div>
+                                  </div>
+                                </br>
+                              </br>
+                            </br>
+                          </br>
+                        </br>
+                      </br>
+                    </br>
+                  </br>
+                </br>
+              </br>
+            </br>
           </div>
         </div>
-        
+        <div>
+          <div id="poll">
+            <h3>
+              Do you like the movie?
+            </h3>
+            <form>
+              Yes:
+              <input name="vote" onclick="getVote(this.value)" type="radio" value="0">
+                <br>
+                  No:
+                  <input name="vote" onclick="getVote(this.value)" type="radio" value="1">
+                  </input>
+                </br>
+              </input>
+            </form>
+          </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script src="./script.js">
+        </script>
       </div>
     </div>
-    <div>
-    <div id="poll">
-<h3>Do you like the movie?</h3>
-<form>
-Yes:
-<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
-<br>No:
-<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
-</form>
-</div>
-   </div>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
-
-</body>
+  </body>
 </html>
