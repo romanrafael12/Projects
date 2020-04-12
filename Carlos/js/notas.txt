@@ -1,0 +1,110 @@
+Métodos jQuery AJAX
+AJAX es el arte de intercambiar datos con un servidor y actualizar partes de una página web, sin volver a cargar toda la página.
+
+La siguiente tabla enumera todos los métodos jQuery AJAX:
+
+Method
+[Método]
+Description
+[Descripción]
+---------------------------------------
+$.ajax()
+[$ .ajax ()]
+
+Performs an async AJAX request
+[Realiza una solicitud asíncrona AJAX]
+---------------------------------------
+
+---------------------------------------
+$.ajaxPrefilter()
+[$ .ajaxPrefilter ()]
+
+Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax()
+[Maneje las opciones personalizadas de Ajax o modifique las opciones existentes antes de enviar cada solicitud y antes de que sean procesadas por $ .ajax ()]
+---------------------------------------
+
+----------------------------------------
+$.ajaxSetup()
+[$ .ajaxSetup ()]
+
+Sets the default values for future AJAX requests
+[Establece los valores predeterminados para futuras solicitudes AJAX]
+----------------------------------------
+
+-------------------------------------------
+$.ajaxTransport()
+[$ .ajaxTransport ()]
+
+Creates an object that handles the actual transmission of Ajax data
+[Crea un objeto que maneja la transmisión real de datos Ajax]
+-------------------------------------------
+
+---------------------------------------------
+$.get()
+[$ .get ()]
+
+Loads data from a server using an AJAX HTTP GET request
+[Carga datos de un servidor utilizando una solicitud AJAX HTTP GET]
+---------------------------------------------
+
+---------------------------------------------
+$.getJSON()
+[$ .getJSON ()]
+
+Loads JSON-encoded data from a server using a HTTP GET request
+[Carga datos codificados en JSON desde un servidor utilizando una solicitud HTTP GET]
+---------------------------------------------
+$.parseJSON()
+[$ .ParseJSON ()]
+Deprecated in version 3.0, use JSON.parse() instead.
+[En desuso en la versión 3.0, use JSON.parse () en su lugar.]
+Takes a well-formed JSON string and returns the resulting JavaScript value
+[Toma una cadena JSON bien formada y devuelve el valor JavaScript resultante]
+$.getScript()
+[$ .getScript ()]
+Loads (and executes) a JavaScript from a server using an AJAX HTTP GET request
+[Carga (y ejecuta) un JavaScript desde un servidor utilizando una solicitud AJAX HTTP GET]
+$.param()
+[$ .param ()]
+Creates a serialized representation of an array or object (can be used as URL query string for AJAX requests)
+[Crea una representación serializada de una matriz u objeto (se puede usar como cadena de consulta de URL para solicitudes AJAX)]
+$.post()
+[$ .post ()]
+Loads data from a server using an AJAX HTTP POST request
+[Carga datos de un servidor utilizando una solicitud POST HTTP AJAX]
+ajaxComplete()
+[AjaxComplete ()]
+Specifies a function to run when the AJAX request completes
+[Especifica una función para ejecutar cuando se completa la solicitud AJAX]
+ajaxError()
+[Error ajax ()]
+Specifies a function to run when the AJAX request completes with an error
+[Especifica una función para ejecutar cuando la solicitud AJAX se completa con un error]
+ajaxSend()
+[AjaxSend ()]
+Specifies a function to run before the AJAX request is sent
+[Especifica una función para ejecutar antes de enviar la solicitud AJAX]
+ajaxStart()
+[AjaxStart ()]
+Specifies a function to run when the first AJAX request begins
+[Especifica una función para ejecutar cuando comienza la primera solicitud AJAX]
+ajaxStop()
+[AjaxStop ()]
+Specifies a function to run when all AJAX requests have completed
+[Especifica una función para ejecutar cuando todas las solicitudes AJAX se hayan completado]
+ajaxSuccess()
+[AjaxSuccess ()]
+Specifies a function to run when an AJAX request completes successfully
+[Especifica una función para ejecutar cuando una solicitud AJAX se completa con éxito]
+load()
+[Carga()]
+Loads data from a server and puts the returned data into the selected element
+[Carga datos de un servidor y coloca los datos devueltos en el elemento seleccionado]
+serialize()
+[Publicar por fascículos()]
+Encodes a set of form elements as a string for submission
+[Codifica un conjunto de elementos de formulario como una cadena para enviar]
+serializeArray()
+[SerializeArray ()]
+Encodes a set of form elements as an array of names and values
+[Codifica un conjunto de elementos de formulario como una matriz de nombres y valores]
