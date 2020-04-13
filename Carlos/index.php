@@ -54,7 +54,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video1.webm" type="video/webm">
             </source>
           </video>
           <div class="w3-container">
@@ -76,7 +76,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video3.webm" type="video/webm">
             </source>
           </video>
           <div class="w3-container">
@@ -100,7 +100,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video2.webm" type="video/webm">
             </source>
           </video>
           <div class="w3-container">
@@ -122,7 +122,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video4.mp4" type="video/mp4">
             </source>
           </video>
           <div class="w3-container">
@@ -150,7 +150,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video5.mp4" type="video/mp4">
             </source>
           </video>
           <div class="w3-container">
@@ -172,7 +172,7 @@
       <div class="w3-third ">
         <div class="w3-card w3-2018-martini-olive w3-margin-top">
           <video controls="" style="width: 100%; ">
-            <source src="video/video1.mp4" type="video/mp4">
+            <source src="video/video6.mp4" type="video/mp4">
             </source>
           </video>
           <div class="w3-container">
